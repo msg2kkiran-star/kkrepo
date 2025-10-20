@@ -6,7 +6,7 @@ WORKDIR /kkrepo
 
 # Step 3: Copy the Spring Boot JAR file into the image
 # (Replace 'app.jar' with your JAR filename if different)
-COPY target/*.jar kk-kk.jar
+COPY target/kk-kk.jar kk-kk.jar
 
 # Step 4: Expose the port your Spring Boot app runs on
 EXPOSE 8080
