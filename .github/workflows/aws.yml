@@ -61,6 +61,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean package -DskipTests
+        working-directory: kkrepo
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
