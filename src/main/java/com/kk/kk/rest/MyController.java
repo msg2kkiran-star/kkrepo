@@ -10,4 +10,8 @@ public class MyController {
         return "ABCD";
     }
 
+    @GetMapping(value = "/mno")
+    public String m2() {
+        return "MNO";
+    }
 }
