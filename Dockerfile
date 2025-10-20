@@ -1,7 +1,8 @@
 # Step 1: Use a lightweight base image with Java
 #FROM eclipse-temurin:17-jdk-alpine
 
-FROM public.ecr.aws/amazoncorretto/amazoncorretto:17-alpine
+FROM public.ecr.aws/amazoncorretto/amazoncorretto:17
+
 
 # Step 2: Set working directory
 WORKDIR /kkrepo
