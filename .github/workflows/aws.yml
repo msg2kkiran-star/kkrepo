@@ -34,7 +34,7 @@ env:
   AWS_REGION: MY_AWS_REGION                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: kkecr           # set this to your Amazon ECR repository name
   ECS_SERVICE: kkservice                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: kkcluster                # set this to your Amazon ECS cluster name
+  ECS_CLUSTER: kk-cluster                # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: .aws/kktask.json  # set this to the path to your Amazon ECS task definition
   # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: kkcontainer1           # set this to the name of the container in the
